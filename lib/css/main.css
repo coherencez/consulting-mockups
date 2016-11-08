@@ -1,14 +1,32 @@
+body {
+  background-color: #000;
+}
+
 .side-nav {
   height: 100vh;
   background-color: #009299;
+  position: fixed;
+  z-index: 100;
 }
 
 .content {
   /*padding: 0;*/
+  left: 25%;
 }
 
-a {
+.nav a {
   color: white;
+  border-radius: 0;
+  display: block;
+}
+
+.nav a:hover, .nav a:active {
+  color: white;
+  background-color: #005A5E;
+}
+
+.active2 {
+  background-color: #005A5E;
 }
 
 
@@ -24,4 +42,16 @@ a {
 
 .infoCard {
   border-left: 5px solid orange
+}
+.infoCard2 {
+  border-left: 5px solid #01CED8
+}
+
+.jumbotron {
+  background-image: url('https://static1.squarespace.com/static/57644903d1758e95aec32435/t/57741525cd0f68e2d1609906/1467225383272/Education-OpportunitySmall.jpg?format=1500w');
+  color: white;
+}
+
+.footer {
+  padding: 10%;
 }
