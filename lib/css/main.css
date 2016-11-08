@@ -50,21 +50,39 @@ body {
   color: white;
   position: fixed;
   z-index: 100;
-  box-shadow: 2px 2px 1px black;
-  height: 261px;
-  transition: all 0.8s ease;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
+  height: 13rem;
+  transition: all 0.5s ease;
 }
 
 .hoverHeight {
-  height: 150px;
+  height: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.hoverHeight h1 {
-  font-size: 2rem;
+.h1 {
+  position: relative;
+  font-size: 4rem;
+  bottom: 0;
+  transition: all 0.5s ease;
 }
-.hoverHeight p {
+
+.h1Hover {
   font-size: 1rem;
+  bottom: 50px;
 }
+.p {
+  position: relative;
+  font-size: 1rem;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+
+.pHover {
+  font-size: 0.5rem;
+  bottom: 50px;
+}
+
 
 .footer {
   padding: 10%;
