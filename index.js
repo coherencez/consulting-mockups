@@ -10,16 +10,16 @@ const animateJumbotron = () => {
   window.addEventListener(`scroll`, () => {
      const st = window.pageYOffset || document.documentElement.scrollTop
      if (st > lastScrollTop){
-         console.log('scrolling down')
-         jumbotron.classList.add('hoverHeight')
-         h1.classList.add('h1Hover')
-         p.classList.add('pHover')
+        console.log('scrolling down')
+        jumbotron.classList.add('hoverHeight')
+        h1.classList.add('h1Hover')
+        p.classList.add('pHover')
      } else if (st === 0) {
         jumbotron.classList.remove('hoverHeight')
         h1.classList.remove('h1Hover')
         p.classList.remove('pHover')
      } else {
-       console.log('scrolling up')
+        console.log('scrolling up')
      }
      lastScrollTop = st;
   }, false)
