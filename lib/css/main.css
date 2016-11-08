@@ -1,0 +1,27 @@
+.side-nav {
+  height: 100vh;
+  background-color: #009299;
+}
+
+.content {
+  /*padding: 0;*/
+}
+
+a {
+  color: white;
+}
+
+
+.body {
+  overflow-y: scroll;
+  height: 100vh;
+  padding: 15%;
+}
+
+.card a {
+  color: #005A5E;
+}
+
+.infoCard {
+  border-left: 5px solid orange
+}
