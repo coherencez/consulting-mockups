@@ -10,7 +10,7 @@ body {
 }
 
 .content {
-  /*padding: 0;*/
+  padding: 0;
   left: 25%;
 }
 
@@ -29,11 +29,9 @@ body {
   background-color: #005A5E;
 }
 
-
 .body {
-  overflow-y: scroll;
-  height: 100vh;
-  padding: 15%;
+  padding: 5%;
+  margin-top: 15rem;
 }
 
 .card a {
@@ -50,6 +48,22 @@ body {
 .jumbotron {
   background-image: url('https://static1.squarespace.com/static/57644903d1758e95aec32435/t/57741525cd0f68e2d1609906/1467225383272/Education-OpportunitySmall.jpg?format=1500w');
   color: white;
+  position: fixed;
+  z-index: 100;
+  box-shadow: 2px 2px 1px black;
+  height: 261px;
+  transition: all 0.8s ease;
+}
+
+.hoverHeight {
+  height: 150px;
+}
+
+.hoverHeight h1 {
+  font-size: 2rem;
+}
+.hoverHeight p {
+  font-size: 1rem;
 }
 
 .footer {
