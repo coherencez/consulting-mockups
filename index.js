@@ -2,9 +2,9 @@
 const eventListeners = () => {
   const jumbotron = document.querySelector('#jumbo')
   const      body = document.body
+  const        h1 = document.querySelector('#h1')
+  const         p = document.querySelector('#p')
 
-  const h1 = document.querySelector('#h1')
-  const p = document.querySelector('#p')
   let lastScrollTop = 0
   window.addEventListener(`scroll`, () => {
      const st = window.pageYOffset || document.documentElement.scrollTop
@@ -23,9 +23,9 @@ const eventListeners = () => {
      lastScrollTop = st;
   }, false)
 
-  const link1 = document.querySelector('#link1')
+  const       link1 = document.querySelector('#link1')
   const link1Anchor = document.querySelector('#link1click')
-  const link2 = document.querySelector('#link2')
+  const       link2 = document.querySelector('#link2')
   const link2Anchor = document.querySelector('#link2click')
 
   link2Anchor.addEventListener(`click`, (e) => {
