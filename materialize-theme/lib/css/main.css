@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+  background-color: #fff;
+
+  border-bottom: 5px solid #005A5E;
+}
+nav ul li a {
+  color: #005A5E;
+}
+#logo {
+  color: #005A5E;
+}
+
+footer {
+  background-color: #005A5E;
+}
