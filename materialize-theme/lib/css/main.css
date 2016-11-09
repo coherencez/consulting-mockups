@@ -23,3 +23,12 @@ nav ul li a {
 footer {
   background-color: #005A5E;
 }
+
+.card {
+  height: 20rem;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+}
