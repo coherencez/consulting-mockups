@@ -7,7 +7,10 @@ html
     link(rel='stylesheet' href='/lib/css/main.css')
   body
     div.container
+      include navbar.pug
+
       block content
     script(src='/lib/jquery/dist/jquery.min.js')
     script(src='/lib/tether/dist/js/tether.min.js')
     script(src='/lib/bootstrap/dist/js/bootstrap.min.js')
+    script(src='/lib/index.js')
