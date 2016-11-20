@@ -1,4 +1,7 @@
 'use strict'
+
+const getRandomHexColor = () => `#${Math.random().toString(16).slice(2,8)}`
+
 const $button = $('#alertMe')
 const height = $button.css('height')
 const width = $button.css('width')
