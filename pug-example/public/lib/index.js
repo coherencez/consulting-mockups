@@ -13,8 +13,9 @@ $button.on('click', () => {
     $button.css('height', `${heightNum + 100}px`)
     $button.css('width', `${widthNum + 100}px`)
   } else {
-    $button.css('height', `${heightNum}px`)
-    $button.css('width', `${widthNum}px`)
+    $button.css('height', height)
+    $button.css('width', width)
   }
+  $('body').css('background-color', getRandomHexColor())
   bool = !bool
 })
