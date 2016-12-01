@@ -11,4 +11,9 @@ body {
   height: 5px;
   width: 5px;
   background: black;
+  transition: all 0.5s ease;
+}
+
+.box:nth-of-type(2n+1) {
+  background-color: white;
 }

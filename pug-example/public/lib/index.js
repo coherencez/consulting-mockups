@@ -1,9 +1,10 @@
 'use strict'
 const $outputDivForBoxes = $('#boxes')
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 1000; i++) {
   $outputDivForBoxes.append($('<div class="box"></div>'))
 }
 
+const getRandomNumber = (max, min) => Math.floor(Math.random() * (max - min + 1)) + min
 const getRandomHexColor = () => `#${Math.random().toString(16).slice(2,8)}`
 
 const $button = $('#alertMe')
@@ -21,7 +22,7 @@ $button.on('click', () => {
   //   $button.css('height', height)
   //   $button.css('width', width)
   // }
-  $('.box').css('height', (index, style) => index * 10)
-  $('body').css({backgroundColor: getRandomHexColor()})
+  $('.box').css('height', (index, style) => getRandomNumber(50,5) )
+  $('body').css( { backgroundColor: getRandomHexColor() } )
   bool = !bool
 })
